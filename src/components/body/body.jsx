@@ -77,7 +77,7 @@ const Body = () => {
       };
       return updatedState;
     });
-    this.fill = 'red';
+ 
   };
 
   const handleSaveEdit = (index, subIndex) => {
