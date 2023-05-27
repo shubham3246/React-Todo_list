@@ -1,0 +1,310 @@
+
+.main_body-body-middle_part {
+    position: absolute;
+    top: 170px;
+    left: 370px;
+    width: 54.4%;
+    height: 640px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.main_body-body-input_box {
+    position: relative;
+    height: 50px;
+    width: 293px;
+    border-radius: 12px;
+    color: #fff;
+    background: #242731;
+    mix-blend-mode: normal;
+    padding-left: 9px;
+    border-radius: 12px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 41px;
+    z-index: 20;
+}
+
+
+.main_body-body-button_icon {
+    position: absolute;
+    top: 17px;
+    left: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    width: 21px;
+    z-index: 20;
+    border-radius: 10px;
+    background-color: #353945;
+}
+
+.main_body-body_outer {
+    position: relative;
+    height: 100%;
+    width: fit-content;
+    top: -52px;
+    display: flex;
+    flex-direction: row;
+}
+.main_body-body-outer-todo_list {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100%;
+    width: 300px;
+}
+
+.main_body-body-outer-todo_list-text_content p{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 41px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #FFFFFF;
+    background-color:  #242731;
+    border-radius: 13px;  
+}
+
+.main_body-body_inner {
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    padding-bottom:50px ;
+    box-sizing: border-box;
+}
+.main_body-body_inner::-webkit-scrollbar {
+    display: none;
+}
+.main_body-body_inner-input_box {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    top: 7px;
+    margin-bottom: 13px;
+    width: 100%;
+    height: 100px;
+    overflow: clip;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #191B20;
+}
+.main_body-body_inner-input_box1{
+    color: #FFFFFF;
+}
+.main_body-body_inner-input_box2{
+    color: #FFFFFF;
+}
+
+.main_body-body_inner-input_box-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #353945;
+}
+.main_body-body_inner-input_box-button svg{
+    position: relative;
+    top: 1px;
+}
+/* .svg-div {
+   position: relative;
+   top: 2px;
+   height: 19px;
+   width: 15px;
+} */
+.main_body-body_inner-input_box1{
+    position: relative;
+    height: 32px;
+    left: 30px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+}
+.main_body-body_inner-input_box2{
+    position: relative;
+    top: 10px;
+    height: 43px;
+    background-color: transparent;
+    border: none;
+}
+.money-bag_icon-back {
+    position: absolute;
+    display: flex;
+    top: 17px;
+    left: 7px;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #BBB5E2 0%, #9C92DF 100%);
+}
+.money-bag_icon {
+    position: relative;
+    width: 10px;
+    height: 14px;
+    
+}
+.main_body-body_inner-content_box{
+    height: 106px;
+}
+.main_body-body_inner-content_box-sublist_section {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 180px;
+    right: 40px;
+    animation: move-in 1.3s ease forwards;
+} 
+
+.main_body-body_inner-content_box-sublist_section-input1 {
+    position: relative;
+    margin-top: 5px;
+    flex-basis: 40px;
+    margin-bottom: 9px;
+    width: 230px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #242731;
+    border:none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 5px;
+    
+} 
+
+.main_body-body_inner-content_box-sublist_section-input2{
+    position: relative;
+    resize: none;
+    height: 100px;
+    max-width: 230px;
+    min-width: 230px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #242731;
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px;
+}
+.main_body-body_inner-content_box-sublist_section-input2::-webkit-scrollbar {
+    display: none;
+}
+.main_body-body_inner-content_box-sublist_section-save{
+    position: relative;
+    flex-basis: 33px;
+    border-radius: 10px;
+    background-color:#3772FF;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;   
+}
+
+.main_body-body_inner-content_box-sublist_section-cancel{
+    position: absolute;
+    top: -30px;
+    left: -18px;
+    cursor: pointer;
+    animation: move-in 1.3s ease forwards;
+}
+
+@keyframes move-in {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+.main_body-body_inner-content_box-sublist {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-radius: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: clip;
+    background-color: #191B20;
+    
+}
+.main_body-body_inner-content_box-sublist-title{
+    position: relative;
+    width: 100%;
+    height: 24px;    
+    max-height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #FFFFFF;
+    
+}
+.main_body-body_inner-content_box-sublist-desc{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    top: 5px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    max-height: 48px;
+    overflow: hidden;
+    color: #808191;
+    
+}
+.main_body-body_inner-content_box-sublist-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353945;
+    border-radius:50% ;
+}
+
+.main_body-body_inner-content_box-sublist-button_svg{
+    position: relative;
+    height: 16px;
+    width: 16px;
+}

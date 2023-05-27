@@ -1,0 +1,21 @@
+.main_header {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    height: 36.48px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    background: #3772FF;
+}
+
+.main_header-content p {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+}

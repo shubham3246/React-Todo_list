@@ -1,0 +1,64 @@
+.main {
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+
+    background: #000000;
+}
+.hr-h {
+    position: absolute;
+    top: -530px;
+    left: 973px;
+    height: 1300px;
+    rotate: 90deg;
+    border: 2px solid #242731;
+    margin: 0;
+    z-index: 20;
+}
+.hr1 {
+    position: absolute;
+    top: 36px;
+    left: 320px;
+    height: 795px;
+    border: 2px solid #242731;
+    margin: 0;
+    z-index: 20;
+}
+.bottom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.hr2 {
+    position: absolute;
+    top: 120px;
+    right: 320px;
+    height: 710px;
+    border: 2px solid #242731;
+    margin: 0;
+}
+
+.main_body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+button {
+    cursor: pointer;
+}
+svg {
+    cursor: pointer;
+}
