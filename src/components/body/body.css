@@ -3,8 +3,8 @@
     position: absolute;
     top: 170px;
     left: 370px;
-    width: 54.4%;
-    height: 640px;
+    width: 50%;
+    height: 570px;
     overflow-y: hidden;
     overflow-x: scroll;
 }
